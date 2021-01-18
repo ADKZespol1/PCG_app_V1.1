@@ -66,7 +66,7 @@ public class RecordingService extends Service {
         String tm = minutes.toString();
 
 
-        fileName= "User x "+ da+"_"+mo+"_"+ye+"   "+ th+"_"+tm+"_"+ts;
+        fileName= "UserX,"+ da+"_"+mo+"_"+ye+","+ th+"_"+tm+"_"+ts;
 
         file=   new File(Environment.getExternalStorageDirectory() + "/.My_sound_Record/"+fileName+".wav");//wav
 
